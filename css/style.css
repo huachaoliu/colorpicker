@@ -1,0 +1,30 @@
+body{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background: url(../img/bg.png);
+}
+.navbar{
+    padding: 0 20px;
+    margin: 50px 0;
+    height: 34px;
+    line-height: 34px;
+    color: #ccc;
+    font-size: 34px;
+}
+
+.example {
+    cursor: pointer;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container input {
+    
+}

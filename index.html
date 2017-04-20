@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>color-picker</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color-picker.css">
+    <script src="js/color-picker.js"></script>
+</head>
+<body>
+
+    <div class="navbar">
+        <span>color-picker </span>
+        <span class="example">example »</span>
+    </div>
+
+    <div class="container">
+
+        <input type="text" id="color-picker" class="color-picker" color-root="input">        
+        <input type="text" id="color-pickergb" class="color-picker" color-root="input">        
+        <input type="text" id="color-pickerscale" class="color-picker" color-root="input">        
+
+    </div>
+    <script>
+        new ColorPicker(document.getElementById('color-picker'), {
+            dragMove: true,
+            showRgb: false,
+            showTargetBg: true,
+            position: 'l b',
+            custombg: 'w'
+        });
+
+        new ColorPicker(document.getElementById('color-pickergb'), {
+            dragMove: true,
+            showRgb: true,
+            targetbg: '#000',
+            showTargetBg: true,
+            position: 'l b',
+            custombg: 'g'
+        });
+        new ColorPicker(document.getElementById('color-pickerscale'), {
+            dragMove: true,
+            showRgb: true,
+            targetbg: '#000',
+            showTargetBg: true,
+            position: 'l b',
+            custombg: 'b',
+            scale: 2
+        });
+    </script>
+</body>
+</html>
