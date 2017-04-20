@@ -1,0 +1,27 @@
+{
+  "name": "colorpicker",
+  "version": "1.0.0",
+  "description": "color picker",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misliu/colorpicker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misliu/colorpicker/issues"
+  },
+  "homepage": "https://github.com/misliu/colorpicker#readme"
+}
