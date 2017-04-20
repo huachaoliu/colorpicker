@@ -10,7 +10,8 @@ gulp.task('minifycss', function () {
 
     var srcFiles = [
         'css/reset.css',
-        'css/style.css'
+        'css/style.css',
+        'css/color-picker.css'
     ];
 
     return gulp.src(srcFiles, {"base": "css"})
