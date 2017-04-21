@@ -25,15 +25,14 @@
     <script>
         new ColorPicker(document.getElementById('color-picker'), {
             dragMove: true,
-            showRgb: false,
+            showRgbProps: false,
             showTargetBg: true,
-            position: 'l b',
             custombg: 'w'
         });
 
         new ColorPicker(document.getElementById('color-pickergb'), {
             dragMove: true,
-            showRgb: true,
+            showRgbProps: true,
             targetbg: '#000',
             showTargetBg: true,
             position: 'l b',
@@ -41,7 +40,7 @@
         });
         new ColorPicker(document.getElementById('color-pickerscale'), {
             dragMove: true,
-            showRgb: true,
+            showRgbProps: false,
             targetbg: '#000',
             showTargetBg: true,
             position: 'l b',

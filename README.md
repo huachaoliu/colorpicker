@@ -16,7 +16,7 @@ See **demo** at [misliu.github.io/plugins/colorpicker](http://misliu.github.io/p
 ```javascript
     new ColorPicker(document.getElementById('color-picker'), {
         dragMove: true,
-        showRgb: false,
+        showRgbProps: false,
         showTargetBg: true,
         position: 'l b',
         custombg: 'w'

@@ -20,7 +20,7 @@ body{
     /*height: 24px;*/
 }
 
-.color-wrapper{
+.colorpicker-wrapper{
     max-width: 450px;
     height: 300px;
     border: 1px solid #aaa;
@@ -30,7 +30,7 @@ body{
     border-radius: 5px;
 }
 
-.color-title{
+.colorpicker-title{
     height: 30px;
     background: #fff;
     margin-bottom: 5px;
@@ -43,7 +43,7 @@ body{
     border: 1px solid;
 }
 
-.color-closed {
+.colorpicker-closed {
     width: 20px;
     height: 20px;
     line-height: 20px;
@@ -55,11 +55,11 @@ body{
 }
 
 
-.color-closed:hover{
+.colorpicker-closed:hover{
     background-color: #333;
 }
 
-.color-mask-parent {
+.colorpicker-board-parent {
     position: relative;
     overflow: hidden;
     width: 256px;
@@ -68,7 +68,7 @@ body{
     margin-right: 5px;
 }
 
-.color-board{
+.colorpicker-board{
     float: left;
     width: 100%;
     height: 100%;
@@ -79,14 +79,14 @@ body{
     cursor: crosshair;    
 }
 
-.color-mask {
+.colorpicker-mask {
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: 10000;
 }
 
-.color-wheel {
+.colorpicker-wheel {
     width: 16px;
     height: 16px;
     background: url(../img/map-pointer.png) no-repeat center;
@@ -95,7 +95,7 @@ body{
     z-index: 10002;
 }
 
-.color-bar{
+.colorpicker-bar{
     width: 20px;
     height: 256px;
     float: left;
@@ -105,7 +105,7 @@ body{
     overflow: hidden;
 }
 
-.color-bar-selected{
+.colorpicker-selector{
     width: 20px;
     height: 7px;
     background: url(../img/bar-pointer.png) no-repeat;
@@ -116,7 +116,7 @@ body{
     cursor: crosshair;
 }
 
-.color-hex-panel{
+.colorpicker-panel{
     /*width: 78px;*/
     width: 95px;
     height: 236px;
@@ -126,24 +126,24 @@ body{
     background: #333;
 }
 
-.color-hex-bg{
+.colorpicker-bg{
     width: 100%;
     height: 22px;
     border: 1px solid #666;
 }
 
-.color-hex-row{
+.colorpicker-row{
     height: 40px;
     line-height: 40px;
     color: #fafafa;
     font-weight: bold;
 }
 
-.color-hex-key{
+.colorpicker-key{
     width: 26px;
     display: inline-block;
 }
-.color-hex-value{
+.colorpicker-value{
     /*width: 48px;*/
     width: 51px;
     color: #fafafa;
@@ -153,6 +153,6 @@ body{
     background: url(../img/hexbg.jpg) no-repeat;
 }
 
-.color-hex-value.hhex {
+.colorpicker-value.hhex {
     background-image: none;
 }
