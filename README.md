@@ -5,7 +5,7 @@ color picker
 
 A small JS color picker plugin
 
-See **demo** at [misliu.github.io/plugins/colorpicker](http://misliu.github.io/plugins/colorpicker)
+See **demo** at [huachaoliu.github.io/plugins/colorpicker](http://huachaoliu.github.io/plugins/colorpicker)
 
 ### Use
 
